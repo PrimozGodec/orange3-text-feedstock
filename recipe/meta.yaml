@@ -42,6 +42,9 @@ requirements:
     - ufal.udpipe >=1.2.0.3
 
 test:
+  source_files:
+    - orangecontrib/text/tests/*
+    - orangecontrib/text/widgets/tests/*
   commands:
     # make sure all required dependencies are present
     - python -c "import pkg_resources; pkg_resources.require('Orange3-Text')"
