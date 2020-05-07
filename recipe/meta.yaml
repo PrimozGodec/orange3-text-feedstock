@@ -43,9 +43,7 @@ requirements:
 
 test:
   source_files:
-    - orangecontrib/text/tests/*
-    - orangecontrib/text/*/tests/*
-    - orangecontrib/text/datasets/*
+    - orangecontrib/text/*
   commands:
     # make sure all required dependencies are present
     - ls orangecontrib/text
