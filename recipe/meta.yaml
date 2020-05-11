@@ -51,7 +51,7 @@ test:
     - pytest --pyargs orangecontrib.text -v
   imports:
     - orangecontrib.text
-    - PyQt5.QtWebEngineWidgets
+#    - PyQt5.QtWebEngineWidgets
     - PyQt5.QtWebKitWidgets
 
 about:
