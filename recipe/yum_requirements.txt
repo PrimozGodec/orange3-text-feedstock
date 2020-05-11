@@ -1,8 +1,8 @@
 mesa-libGL
 xorg-x11-server-Xvfb
-# libXcomposite
-# libXcursor
-# libXi
+libXcomposite
+libXcursor
+libXi
 libXtst
 libXScrnSaver
 alsa-lib
