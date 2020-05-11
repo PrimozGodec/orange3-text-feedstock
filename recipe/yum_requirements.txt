@@ -3,3 +3,4 @@ xorg-x11-server-Xorg
 libXcomposite
 libXcursor
 libXi
+libXtst
