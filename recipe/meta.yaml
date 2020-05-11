@@ -51,6 +51,8 @@ test:
     - pytest --pyargs orangecontrib.text -v
   imports:
     - orangecontrib.text
+    - PyQt5.QtWebEngineWidgets
+    - PyQt5.QtWebKitWidgets
 
 about:
   home: https://github.com/biolab/orange3-text
